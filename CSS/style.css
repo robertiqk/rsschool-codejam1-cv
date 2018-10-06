@@ -45,3 +45,205 @@ header .name {
     margin-left: 20vw;
     text-transform: uppercase;
 }
+
+main > .main-info {
+    background-image: url(../img/mainbackground2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 75vw;
+}
+
+main > .main-info .introduction-grid {
+    width: 100vw;
+    height: 60vw;
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr)
+}
+
+main > .main-info .card {
+    grid-row: 4 / span 4;
+    grid-column: 4 / span 4;
+    background-color: white;
+}
+.card > section {
+    margin: 2.2vw;
+    height: 80vw;
+}
+
+.card-grid {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr)
+}
+section.card-grid > figure {
+    margin: 0;
+    grid-row: 1 / span 10;
+    grid-column: 1 / span 4;
+}
+
+section.card-grid > figure > .autor-photo {
+    margin: 1.2vw 0;
+    height: 16.875vw;
+}
+
+section.card-grid > article {
+    grid-row: 1 / span 1;
+    grid-column: 5 / span 6;
+    color: #0f1838;
+}
+
+
+section.card-grid > article > hr {
+    width: 50%;
+    margin: 0;
+    height: 0.375vw;
+    background-color: #0f1838;
+    border: none;
+}
+
+section.card-grid > article > p {
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 1.3vw;
+}
+
+section.card-grid > article > p > a {
+    color: #0f1838;
+    font-size: 1.5vw;
+    font-style: normal;
+}
+
+section.card-grid > article > p > a:hover {
+    color:  #800000;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+section.card-grid > article > h1 > span {
+    font-size: 5vw;
+}
+
+section.card-grid > article > h1 {
+    margin-top: 0.375vw;
+    font-size: 2.2vw;
+}
+
+.portfolio-grid {
+    width: 100vw;
+    height: 30vw;
+    display: grid;
+    grid-template: repeat(9, 1fr) / repeat(9, 1fr)
+}
+
+.portfolio-grid{
+	padding-top: 4.125vw;
+	margin-top: -4.125vw;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
+.devskills {
+    grid-row: 1 / span 9;
+    grid-column: 1 / span 3;
+    background-color:#5098ba;
+}
+
+.projects {
+    grid-row: 1 / span 9;
+    grid-column: 4 / span 3;
+    background-color:#48277c;
+}
+
+.softskills {
+    grid-row: 1 / span 9;
+    grid-column: 7 / span 3;
+    background-color:#9a69c2;
+}
+
+.portfolio-grid h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.3vw;
+    margin-top: 10%;
+}
+
+.portfolio-grid .info {
+    text-align: left;
+    color: white;
+    font-size: 2.5vw;
+    margin-left: 15%;
+    margin-top: 0.75vw;
+    line-height: 3.3vw;
+}
+
+.projects .info {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0.5vw 0 0 0;
+    color: white;
+    line-height: 2.4vw;
+}
+.projects .info > a {
+    color: white;
+}
+
+.projects .info > a:hover {
+    color:  #800000;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.projects .info > a > span {
+    font-size: 1.5em;
+    line-height: 3.5vw;
+}
+
+.softskills .info {
+   margin-left: 10%;
+   font-size: 2.5vw;
+   line-height: 2;
+   word-spacing: 2.25vw;
+   margin-top: 0;
+}
+
+
+main > .secondary-info {
+    background-image: url(../img/cancode.png);
+    background-size: cover;
+    width: 100vw;
+    height: 80vw;
+}
+
+main > .secondary-info .secondary-info-grid {
+    width: 100vw;
+    height: 95vw;
+    display: grid;
+    grid-template: repeat(9, 1fr) / 1fr;
+}
+
+.secondary-info-grid .about {
+    grid-row: 7 / span 3;
+    background-color: #48277c;
+    padding-top: 2vw;
+    margin-top: 2vw;
+
+}
+
+.about .about-me{
+    margin-left: 13vw;
+    margin-top: 3vw;
+    color: white;
+}
+
+.about .about-me h3 {
+    font-size: 1.2vw;
+}
+
+.about .about-me p{
+    font-size: 2.1vw;
+    line-height: 2.6vw;
+}
+
+.about .about-me p > span {
+    line-height: 4em;
+}
