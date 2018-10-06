@@ -1,0 +1,47 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 6vw;
+    position: fixed;
+    background-color: #d1d0d3;
+    font-size: 1.5vw;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 20vw;
+    margin-top: 0.6em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 0.6em;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #48277c;
+    font-weight: 400;
+}
+
+header a:hover {
+    color:  #800000;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+header .name {
+    margin-left: 20vw;
+    text-transform: uppercase;
+}
