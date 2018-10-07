@@ -58,9 +58,9 @@ main > .main-info {
 }
 
 main > .main-info .introduction-grid {
+    display: grid;
     width: 100vw;
     height: 60vw;
-    display: grid;
     grid-template: repeat(10, 1fr) / repeat(10, 1fr)
 }
 
@@ -132,9 +132,9 @@ section.card-grid > article > h1 {
 }
 
 .portfolio-grid {
+    display: grid;
     width: 100vw;
     height: 30vw;
-    display: grid;
     grid-template: repeat(9, 1fr) / repeat(9, 1fr)
 }
 
@@ -164,28 +164,28 @@ section.card-grid > article > h1 {
 }
 
 .portfolio-grid h2 {
+    margin-top: 10%;
     text-align: center;
     color: white;
     font-size: 3.3vw;
-    margin-top: 10%;
 }
 
 .portfolio-grid .info {
+    margin-left: 15%;
+    margin-top: 0.75vw;
     text-align: left;
     color: white;
     font-size: 2.5vw;
-    margin-left: 15%;
-    margin-top: 0.75vw;
     line-height: 3.3vw;
 }
 
 .projects .info {
-    text-align: center;
-    font-size: 2vw;
     margin: 0;
     padding: 0.5vw 0 0 0;
     color: white;
+    text-align: center;
     line-height: 2.4vw;
+    font-size: 2vw;
 }
 .projects .info > a {
     color: white;
@@ -203,34 +203,33 @@ section.card-grid > article > h1 {
 }
 
 .softskills .info {
+   margin-top: 0;
    margin-left: 10%;
    font-size: 2.5vw;
    line-height: 2;
    word-spacing: 2.25vw;
-   margin-top: 0;
 }
 
 
 main > .secondary-info {
-    background-image: url(../img/cancode.png);
-    background-size: cover;
     width: 100vw;
     height: 80vw;
+    background-image: url(../img/cancode.png);
+    background-size: cover;
 }
 
 main > .secondary-info .secondary-info-grid {
+    display: grid;
     width: 100vw;
     height: 95vw;
-    display: grid;
     grid-template: repeat(9, 1fr) / 1fr;
 }
 
 .secondary-info-grid .about {
     grid-row: 7 / span 3;
     background-color: #48277c;
-    padding-top: 2vw;
     margin-top: 2vw;
-
+    padding-top: 2vw;
 }
 
 .about .about-me{
@@ -260,9 +259,9 @@ footer{
 }
 
 footer > .footer-grid {
+    display: grid;
     width: 100vw;
     height: 43.5vw;
-    display: grid;
     grid-template: repeat(10, 1fr) / repeat(10, 1fr)
 }
 
@@ -321,11 +320,11 @@ footer > .footer-grid {
 }
 
 .footer-grid > form > input:last-child {
-    background-color: #48277c;
     width: 30%;
+    margin-top: 0.75vw;
+    background-color: #48277c;
     color: white;
     font-style: italic;
-    margin-top: 0.75vw;
     font-size: 1.3vw;
     text-align: center;
     vertical-align: middle;
