@@ -51,7 +51,7 @@ header .name {
 }
 
 main > .main-info {
-    background-image: url(../img/mainbackground2.jpg);
+    background-image: url(../img/mainbackground1.jpg);
     background-size: cover;
     width: 100vw;
     height: 75vw;
@@ -214,7 +214,7 @@ section.card-grid > article > h1 {
 main > .secondary-info {
     width: 100vw;
     height: 80vw;
-    background-image: url(../img/cancode.png);
+    background-image: url(../img/cancode.jpg);
     background-size: cover;
 }
 
