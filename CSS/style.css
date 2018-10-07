@@ -2,6 +2,10 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.overflow-fix-box {
+    overflow: hidden;
+}
+
 header {
     width: 100vw;
     height: 6vw;
